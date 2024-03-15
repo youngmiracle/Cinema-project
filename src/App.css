@@ -1,4 +1,8 @@
 body {
-  background-color: red;
-  border: 3px solid black;
+  background-color: darkslategrey;
+  border: 3px solid rgb(255, 255, 255);
+  width: 100%;
+  height: 99vh;
+  margin: 0;
+  overflow: hidden;
 }

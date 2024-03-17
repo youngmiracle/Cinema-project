@@ -1,8 +1,5 @@
 body {
-  background-color: rgb(96, 216, 16);
-  border: 3px solid rgb(255, 255, 255);
   width: 100%;
-  height: 99vh;
-  margin: 0;
-  overflow: hidden;
+  background: url(./components/assets/image/Background.png) no-repeat;
+  background-size: cover;
 }

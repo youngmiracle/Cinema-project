@@ -1,0 +1,70 @@
+.btnHeader {
+  text-transform: uppercase;
+  margin-right: 4%;
+  height: 3vh;
+  background-color: transparent;
+  font-weight: 500;
+  text-align: center;
+  -webkit-animation: btnHeaderHoverBack 0.3s forwards alternate;
+          animation: btnHeaderHoverBack 0.3s forwards alternate;
+  color: #606C38;
+  font-size: 20px;
+}
+
+.btnHeader:hover {
+  -webkit-animation: btnHeaderHover 0.3s forwards alternate;
+          animation: btnHeaderHover 0.3s forwards alternate;
+}
+
+.btnHeaderActive {
+  -webkit-animation: btnClicked 1s alternate forwards;
+          animation: btnClicked 1s alternate forwards;
+}
+
+@-webkit-keyframes btnHeaderHover {
+  100% {
+    color: #91a355;
+    font-size: 22px;
+    letter-spacing: 2px;
+  }
+}
+
+@keyframes btnHeaderHover {
+  100% {
+    color: #91a355;
+    font-size: 22px;
+    letter-spacing: 2px;
+  }
+}
+@-webkit-keyframes btnHeaderHoverBack {
+  from {
+    color: #91a355;
+    font-size: 22px;
+    letter-spacing: 2px;
+  }
+  100% {
+    color: #606C38;
+    font-size: 20px;
+  }
+}
+@keyframes btnHeaderHoverBack {
+  from {
+    color: #91a355;
+    font-size: 22px;
+    letter-spacing: 2px;
+  }
+  100% {
+    color: #606C38;
+    font-size: 20px;
+  }
+}
+@-webkit-keyframes btnClicked {
+  50% {
+    color: #bc6c25;
+  }
+}
+@keyframes btnClicked {
+  50% {
+    color: #bc6c25;
+  }
+}

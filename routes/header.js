@@ -1,22 +1,24 @@
 const express = require('express');
 
-const route = express.Router();
+const router = express.Router();
 
-route.get('/', (req,res) => {
-    res.sendFile()
+router.get('/', (req,res) => {
+    console.log('main')
 })
 
-route.get('/about', (req,res) => {
-    res.sendFile()
-})
-
-route.get('/price', (req,res) => {
+router.get('/about', (req,res) => {
     res.sendFile()
 })
 
-route.get('/contacts', (req,res) => {
+router.get('/price', (req,res) => {
     res.sendFile()
 })
-route.get('/review', (req,res) => {
+
+router.get('/contacts', (req,res) => {
+    res.render('contacts')
+})
+router.get('/review', (req,res) => {
     res.sendFile()
 })
+
+module.exports = router;

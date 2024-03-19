@@ -1,18 +1,34 @@
-import './Header.css'
+import  './Header.css'
 import ButtonHeader from '../shared/Button/ButtonHeader/ButtonHeader'
+import { useState } from 'react'
 
 export function Header({active, onChange}){
+const [contactHeader, setcontactHeader] = useState('header')
+
+function changeContact (){
+    onChange('contacts');
+    setcontactHeader('header headerContact')
+}
+
+const infoChange = () => {onChange('info'); setcontactHeader('header')}
+const mainChange = () => {onChange('main'); setcontactHeader('header')}
+const pricesChange = () => {onChange('prices'); setcontactHeader('header')}
+
     return(
-        <section className="header">
-            <button className='logoCinema' isActive={active === 'main'}  onClick={() => onChange('main')}></button>
+        <section className={contactHeader}>
+            <a href="#" style={{
+                width: '4%',
+                height: "100%",
+            }} className='navLink'><button className='logoCinema' isActive={active === 'main'}  onClick={mainChange}></button></a>
             <nav className='navBtn'>
-                <ButtonHeader isActive={active === 'info'}  onClick={() => onChange('info')}>о кинотеатре</ButtonHeader>
-                <ButtonHeader isActive={active === 'prices'}  onClick={() => onChange('prices')}>цены</ButtonHeader>
-                <ButtonHeader isActive={active === 'contacts'}  onClick={() => onChange('contacts')}>контакты</ButtonHeader>
-                <ButtonHeader style={{
+                <a href="#" className='navLink'><ButtonHeader isActive={active === 'info'}  onClick={infoChange}>о кинотеатре</ButtonHeader></a>
+                <a href="#" className='navLink'><ButtonHeader isActive={active === 'prices'}  onClick={pricesChange}>цены</ButtonHeader></a>
+                <a href="#" className='navLink'><ButtonHeader isActive={active === 'contacts'}  onClick={changeContact}>контакты</ButtonHeader></a>
+                <a href="#" className='navLink'><ButtonHeader style={{
                     position: 'absolute',
-                    right: '5%'
-                }}>оставить отзыв</ButtonHeader>
+                    right: '5%',
+                    width: '15%'
+                }}>оставить отзыв</ButtonHeader></a>
             </nav>
             <p className='number'>+8 800 535 35 35</p>
         </section>

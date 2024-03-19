@@ -11,14 +11,13 @@ import { useState } from 'react';
 export function App() {
   const [nav, setNav] = useState('main')
 
-
   return (
     <>
       <Header active={nav} onChange={(current) => setNav(current)}>
       </Header>
       <main>
-        {nav === 'main' && <MainPage/>}
         {nav === 'contacts' && <ContactsPage/>}
+        {nav === 'main' && <MainPage/>}
         {nav === 'info' && <InformationPage/>}
         {nav === 'prices' && <PricesPage/>}
       </main>

@@ -1,0 +1,56 @@
+.contactsSection{
+  width: 100%;
+  background: url(./phon.jpg)no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  padding: 5% 15%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.637);
+  height: 100%;
+}
+.contactsSection__title{
+  font-size: 35px;
+  color: white;
+  width: 50%;
+  font-weight: 600;
+  letter-spacing: 3px;
+  padding-bottom: 6%;
+}
+.sectionAside{
+  width: 90%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.contacts__article{
+  width: 50%;
+  height: 50%;
+}
+.contacts__aside{
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.contacts__title{
+  text-transform: uppercase;
+  font-size: 23px;
+  color: rgb(197, 118, 0);
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 4%;
+}
+.contacts__number{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 28px;
+  color: white;
+}
+.contacts__mail{
+  color: white;
+  font-size: 25px;
+  letter-spacing: 1px;
+}

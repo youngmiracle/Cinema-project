@@ -26,7 +26,7 @@ const pricesChange = () => {onChange('prices'); setcontactHeader('header')}
                 <a href="#" className='navLink'><ButtonHeader isActive={active === 'contacts'}  onClick={changeContact}>контакты</ButtonHeader></a>
                 <a href="#" className='navLink'><ButtonHeader style={{
                     position: 'absolute',
-                    right: '5%',
+                    right: '6%',
                     width: '15%'
                 }}>оставить отзыв</ButtonHeader></a>
             </nav>

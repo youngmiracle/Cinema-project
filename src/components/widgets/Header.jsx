@@ -22,7 +22,7 @@ const pricesChange = () => {onChange('prices'); setcontactHeader('header')}
             }} className='navLink'><button className='logoCinema' isActive={active === 'main'}  onClick={mainChange}></button></a>
             <nav className='navBtn'>
                 <a href="#" className='navLink'><ButtonHeader isActive={active === 'info'}  onClick={infoChange}>о кинотеатре</ButtonHeader></a>
-                <a href="#" className='navLink'><ButtonHeader isActive={active === 'prices'}  onClick={pricesChange}>цены</ButtonHeader></a>
+                <a href="#" className='navLink'><ButtonHeader isActive={active === 'prices'}  onClick={pricesChange}>услуги</ButtonHeader></a>
                 <a href="#" className='navLink'><ButtonHeader isActive={active === 'contacts'}  onClick={changeContact}>контакты</ButtonHeader></a>
                 <a href="#" className='navLink'><ButtonHeader style={{
                     position: 'absolute',

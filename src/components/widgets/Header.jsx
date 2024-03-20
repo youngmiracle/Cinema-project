@@ -13,7 +13,7 @@ function changeContact (){
 
 const infoChange = () => {onChange('info'); setcontactHeader('header')}
 const mainChange = () => {onChange('main'); setcontactHeader('header')}
-const pricesChange = () => {onChange('prices'); setcontactHeader('header')}
+const serviceChange = () => {onChange('prices'); setcontactHeader('header')}
 
     return(
         <section className={contactHeader}>
@@ -23,7 +23,7 @@ const pricesChange = () => {onChange('prices'); setcontactHeader('header')}
             }} className='navLink'><button className='logoCinema' isActive={active === 'main'}  onClick={mainChange}></button></NavLink>
             <nav className='navBtn'>
                 <NavLink to={'about'} href="#" className='navLink'><ButtonHeader isActive={active === 'info'}  onClick={infoChange}>о кинотеатре</ButtonHeader></NavLink>
-                <NavLink to={'price'} href="#" className='navLink'><ButtonHeader isActive={active === 'prices'}  onClick={pricesChange}>цены</ButtonHeader></NavLink>
+                <NavLink to={'service'} href="#" className='navLink'><ButtonHeader isActive={active === 'service'}  onClick={serviceChange}>Услуги</ButtonHeader></NavLink>
                 <NavLink to={'contacts'} href="#" className='navLink'><ButtonHeader isActive={active === 'contacts'}  onClick={changeContact}>контакты</ButtonHeader></NavLink>
                 <NavLink to={'review'} href="#" className='navLink'><ButtonHeader style={{
                     position: 'absolute',

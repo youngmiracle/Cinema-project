@@ -4,7 +4,7 @@ import {Header} from './components/widgets/Header';
 import {MainPage} from './components/pages/Main/Main';
 import {ContactsPage} from './components/pages/Contacts/Contacts';
 import {InformationPage} from './components/pages/Information/Information';
-import {PricesPage} from './components/pages/prices/Prices';
+import { ServicePage } from './components/pages/Service/Service';
 import { Route, Routes } from 'react-router-dom';
 
 
@@ -20,12 +20,12 @@ export function App() {
         {nav === 'contacts' && <ContactsPage/>}
         {nav === 'main' && <MainPage/>}
         {nav === 'info' && <InformationPage/>}
-        {nav === 'prices' && <PricesPage/>}
+        {nav === 'prices' && <ServicePage/>}
       </main> */}
       <Routes>
         <Route path='/' element = {<MainPage/>}/>
         <Route path='about' element = {<InformationPage/>}/>
-        <Route path='price' element = {<PricesPage/>}/>
+        <Route path='service' element = {<ServicePage/>}/>
         <Route path='contacts' element = {<ContactsPage/>}/>
       </Routes>
     </>

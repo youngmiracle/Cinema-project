@@ -1,5 +1,7 @@
 import  './Header.css'
 import ButtonHeader from '../shared/Button/ButtonHeader/ButtonHeader'
+import { useState } from 'react'
+import { NavLink } from 'react-router-dom'
 
 export function Header({active, onChange}){
 const [contactHeader, setcontactHeader] = useState('header')
@@ -14,16 +16,20 @@ const mainChange = () => {onChange('main'); setcontactHeader('header')}
 const pricesChange = () => {onChange('prices'); setcontactHeader('header')}
 
     return(
-        <section className="header">
-            <button className='logoCinema' isActive={active === 'main'}  onClick={() => onChange('main')}></button>
+        <section className={contactHeader}>
+            <NavLink to={'/'} href="#" style={{
+                width: '4%',
+                height: "100%",
+            }} className='navLink'><button className='logoCinema' isActive={active === 'main'}  onClick={mainChange}></button></NavLink>
             <nav className='navBtn'>
-                <ButtonHeader isActive={active === 'info'}  onClick={() => onChange('info')}>о кинотеатре</ButtonHeader>
-                <ButtonHeader isActive={active === 'prices'}  onClick={() => onChange('prices')}>цены</ButtonHeader>
-                <ButtonHeader isActive={active === 'contacts'}  onClick={() => onChange('contacts')}>контакты</ButtonHeader>
-                <ButtonHeader style={{
+                <NavLink to={'about'} href="#" className='navLink'><ButtonHeader isActive={active === 'info'}  onClick={infoChange}>о кинотеатре</ButtonHeader></NavLink>
+                <NavLink to={'price'} href="#" className='navLink'><ButtonHeader isActive={active === 'prices'}  onClick={pricesChange}>цены</ButtonHeader></NavLink>
+                <NavLink to={'contacts'} href="#" className='navLink'><ButtonHeader isActive={active === 'contacts'}  onClick={changeContact}>контакты</ButtonHeader></NavLink>
+                <NavLink to={'review'} href="#" className='navLink'><ButtonHeader style={{
                     position: 'absolute',
-                    right: '5%'
-                }}>оставить отзыв</ButtonHeader>
+                    right: '6%',
+                    width: '15%'
+                }}>оставить отзыв</ButtonHeader></NavLink>
             </nav>
             <p className='number'>+8 800 535 35 35</p>
         </section>

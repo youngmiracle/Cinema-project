@@ -10,22 +10,13 @@ import { Route, Routes } from 'react-router-dom';
 
 
 export function App() {
-<<<<<<< HEAD
-  const [nav, setNav] = useState('main');
-=======
   const [nav, setNav] = useState('main')
->>>>>>> master
 
   return (
     <>
       <Header active={nav} onChange={(current) => setNav(current)}>
       </Header>
-<<<<<<< HEAD
       {/* <main>
-        {nav === 'main' && <MainPage/>}
-=======
-      <main>
->>>>>>> master
         {nav === 'contacts' && <ContactsPage/>}
         {nav === 'main' && <MainPage/>}
         {nav === 'info' && <InformationPage/>}

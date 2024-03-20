@@ -16,7 +16,7 @@ const mainChange = () => {onChange('main'); setcontactHeader('header')}
 const serviceChange = () => {onChange('prices'); setcontactHeader('header')}
 
     return(
-        <section className={contactHeader}>
+        <header className={contactHeader}>
             <NavLink to={'/'} href="#" style={{
                 width: '4%',
                 height: "100%",
@@ -32,6 +32,6 @@ const serviceChange = () => {onChange('prices'); setcontactHeader('header')}
                 }}>оставить отзыв</ButtonHeader></NavLink>
             </nav>
             <p className='number'>+8 800 535 35 35</p>
-        </section>
+        </header>
     )
 }

@@ -5,7 +5,6 @@ import {MainPage} from './components/pages/Main/Main';
 import {ContactsPage} from './components/pages/Contacts/Contacts';
 import {InformationPage} from './components/pages/Information/Information';
 import { ServicePage } from './components/pages/Service/Service';
-// import {PricesPage} from './components/pages/prices/Prices';
 import { Route, Routes } from 'react-router-dom';
 
 
@@ -22,8 +21,6 @@ export function App() {
         {nav === 'main' && <MainPage/>}
         {nav === 'info' && <InformationPage/>}
         {nav === 'prices' && <ServicePage/>}
-      </main>
-        {nav === 'prices' && <PricesPage/>}
       </main> */}
       <Routes>
         <Route path='/' element = {<MainPage/>}/>

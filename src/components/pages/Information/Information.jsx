@@ -1,8 +1,8 @@
-import './information.css'
+import './information.css';
 
 
 export function InformationPage (){
-    
+  
     return(
         <section className="infSection">
             <h1 style={{

@@ -1,0 +1,35 @@
+.serviceSection{
+    width: 100%;
+    height: 100vh;
+    background: url(../image/Background.png) 100% 100% no-repeat;
+    background-size: cover;
+    .mainBlock{
+        padding-top: 10%;
+        width: 80%;
+        height: 75%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 2%;
+        .mainBlock__example{
+            width: 25%;
+            margin-right: 8%;
+            margin-bottom: 10%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+        }
+        .logo{
+            width: 20%;
+            margin-bottom: 5%;
+        }
+        .description{
+            color: white;
+            font-size: 23px;
+            text-align: left;
+            letter-spacing: 1px;
+        }
+    }
+}

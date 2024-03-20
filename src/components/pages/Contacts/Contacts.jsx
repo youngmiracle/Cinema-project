@@ -32,7 +32,7 @@ const asideInformation = [
 
 export function ContactsPage (){
     return(
-        <section className="contactsSection">
+        <main className="contactsSection">
             <div className="container">
                 <h2 className='contactsSection__title'>Сотрудники киноклуба «Москва» будут рады ответить на все интересующие вопросы, связанные с работой кинотеатра и ресторанов</h2>
                 <section className='sectionAside'>
@@ -51,6 +51,6 @@ export function ContactsPage (){
                 }
                 </section>
             </div>
-        </section>
+        </main>
     )
 }

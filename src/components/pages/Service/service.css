@@ -1,0 +1,47 @@
+.serviceSection {
+  width: 100%;
+  height: 100vh;
+  background: url(../image/Background.png) 100% 100% no-repeat;
+  background-size: cover;
+}
+.serviceSection .mainBlock {
+  padding-top: 10%;
+  width: 80%;
+  height: 75%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 2%;
+}
+.serviceSection .mainBlock .mainBlock__example {
+  width: 25%;
+  margin-right: 8%;
+  margin-bottom: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.serviceSection .mainBlock .logo {
+  width: 20%;
+  margin-bottom: 5%;
+}
+.serviceSection .mainBlock .description {
+  color: white;
+  font-size: 23px;
+  text-align: left;
+  letter-spacing: 1px;
+}

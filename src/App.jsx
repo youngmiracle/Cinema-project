@@ -14,14 +14,7 @@ export function App() {
 
   return (
     <>
-      <Header active={nav} onChange={(current) => setNav(current)}>
-      </Header>
-      {/* <main>
-        {nav === 'contacts' && <ContactsPage/>}
-        {nav === 'main' && <MainPage/>}
-        {nav === 'info' && <InformationPage/>}
-        {nav === 'prices' && <ServicePage/>}
-      </main> */}
+      <Header active={nav} onChange={(current) => setNav(current)}/>
       <Routes>
         <Route path='/' element = {<MainPage/>}/>
         <Route path='about' element = {<InformationPage/>}/>

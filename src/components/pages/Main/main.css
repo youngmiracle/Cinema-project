@@ -1,0 +1,58 @@
+.mainPage {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 5%;
+  overflow: auto;
+}
+.mainPage .slider {
+  width: 54%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 60vh;
+}
+.mainPage .slider .shadowBackgroundSlider {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgb(96, 108, 24)), color-stop(41%, transparent));
+  background: linear-gradient(0deg, rgb(96, 108, 24), transparent 41%);
+}
+.mainPage .slider .btnSliderNav {
+  position: absolute;
+  margin-bottom: 5%;
+  z-index: 1;
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}

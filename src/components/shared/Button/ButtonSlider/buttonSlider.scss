@@ -1,0 +1,19 @@
+.btnSlider{
+    width: 25%;
+    height: 7px;
+    border-radius: 4px;
+    background-color: #DDA15E;
+}
+.btnSlider:hover{
+    animation: btnSliderHover 0.6s alternate forwards;
+}
+.btnSliderActive{
+    background-color: #BC6c25;
+    border: 1px solid #DDA15E;
+}
+
+@keyframes  btnSliderHover {
+    100%{
+        background-color: #ff8800;
+    }
+}

@@ -1,0 +1,58 @@
+.slider {
+  width: 60%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 60vh;
+}
+.slider .shadowBackgroundSlider {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  z-index: 1;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgb(96, 108, 24)), color-stop(41%, transparent));
+  background: linear-gradient(0deg, rgb(96, 108, 24), transparent 41%);
+}
+.slider .btnSliderNav {
+  position: absolute;
+  margin-bottom: 5%;
+  z-index: 2;
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.slider .sliderTextBlock {
+  position: absolute;
+  width: 35%;
+  left: 5%;
+  bottom: 15%;
+  z-index: 2;
+}
+.slider .sliderTextBlock .sliderText {
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: white;
+  text-transform: uppercase;
+}
+.slider .sliderTextBlock .sliderText .sliderNumber {
+  font-size: 30px;
+}

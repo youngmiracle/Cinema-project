@@ -15,36 +15,10 @@
   padding-top: 5%;
   overflow: auto;
 }
-.mainPage .slider {
-  width: 54%;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: end;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 60vh;
-}
-.mainPage .slider .shadowBackgroundSlider {
-  width: 100%;
-  position: absolute;
+.mainPage .contentFilm {
+  width: 60%;
+  margin: 3% auto;
   height: 100%;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgb(96, 108, 24)), color-stop(41%, transparent));
-  background: linear-gradient(0deg, rgb(96, 108, 24), transparent 41%);
-}
-.mainPage .slider .btnSliderNav {
-  position: absolute;
-  margin-bottom: 5%;
-  z-index: 1;
-  width: 30%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -52,6 +26,22 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+.mainPage .contentFilm .contentFilm__bigCard {
+  width: 35%;
+  min-height: 50vh;
+}
+.mainPage .contentFilm .contentFilm__MiddleCard {
+  width: 70%;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-left: 3%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;

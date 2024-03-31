@@ -48,7 +48,7 @@ const serviceTypes = [
         key: 6
     }
 ]
-       
+
 
     return(
         <main className="serviceSection">

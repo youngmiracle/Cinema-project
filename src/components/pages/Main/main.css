@@ -1,6 +1,6 @@
 .mainPage {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12,8 +12,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 5%;
-  overflow: auto;
+  padding-top: 10%;
+  overflow: hidden;
+padding-bottom: 1%;
+z-index: 3;
 }
 .mainPage .contentFilm {
   width: 60%;
@@ -29,7 +31,7 @@
 }
 .mainPage .contentFilm .contentFilm__bigCard {
   width: 35%;
-  min-height: 50vh;
+  height: 50vh;
 }
 .mainPage .contentFilm .contentFilm__MiddleCard {
   width: 70%;
@@ -37,12 +39,17 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding-left: 3%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }

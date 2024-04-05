@@ -6,7 +6,7 @@ import {ContactsPage} from './components/pages/Contacts/Contacts';
 import {InformationPage} from './components/pages/Information/Information';
 import { ServicePage } from './components/pages/Service/Service';
 import { Route, Routes } from 'react-router-dom';
-
+import { Footer } from './components/widgets/Footer/Footer';
 
 
 export function App() {
@@ -21,6 +21,7 @@ export function App() {
         <Route path='service' element = {<ServicePage/>}/>
         <Route path='contacts' element = {<ContactsPage/>}/>
       </Routes>
+      <Footer/>
     </>
   );
 }

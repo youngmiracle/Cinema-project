@@ -13,7 +13,9 @@
   height: 6vh;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-color: #FEFAE0;
+      background-color: #1A1A1A;
+  position: fixed;
+  z-index: 5;
 }
 .header .logoCinema {
   width: 100%;

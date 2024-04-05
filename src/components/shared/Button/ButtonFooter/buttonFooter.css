@@ -1,0 +1,27 @@
+.btnFooter {
+  width: 20%;
+  text-transform: uppercase;
+  color: #B6B6B6;
+  font-size: 20px;
+  background-color: transparent;
+  font-weight: 500;
+  text-align: center;
+  text-wrap: nowrap;
+}
+
+.btnFooter:hover {
+  -webkit-animation: btnFooterHover 0.5s alternate forwards;
+          animation: btnFooterHover 0.5s alternate forwards;
+}
+
+@-webkit-keyframes btnFooterHover {
+  100% {
+    color: #606c38;
+  }
+}
+
+@keyframes btnFooterHover {
+  100% {
+    color: #606c38;
+  }
+}

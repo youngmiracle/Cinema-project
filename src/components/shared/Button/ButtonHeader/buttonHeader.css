@@ -1,5 +1,5 @@
 .btnHeader {
-  
+  text-wrap: nowrap;
   height: 3vh;
   text-transform: uppercase;
   color: #606C38;

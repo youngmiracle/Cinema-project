@@ -8,6 +8,7 @@ import { BigCard } from '../../shared/BigCard/BigCard'
 
 export function MainPage(){
 
+
     return(
         <main className='mainPage'>
             <Slider/>
@@ -18,7 +19,8 @@ export function MainPage(){
                 <section className='contentFilm__MiddleCard'>
                     <MiddleCard  src={onegin} name={'Онегин'} rental={"12 марта - 21 апреля"}/>
                     <MiddleCard  src={onegin} name={'Герой наших снов'} rental={"7 марта - 3 апреля"}/>
-
+                    <MiddleCard  src={onegin} name={'Герой наших снов'} rental={"7 марта - 3 апреля"}/>
+                    <MiddleCard  src={onegin} name={'Герой наших снов'} rental={"7 марта - 3 апреля"}/>
                 </section>
             </article>
         </main>

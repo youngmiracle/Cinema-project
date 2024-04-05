@@ -12,13 +12,14 @@ const db = mysql.createConnection({
 })
 
 exports.filmsView = (req,res) => {
-    db.query(`SELECT * FROM films`, async(err, result)=>{
+    db.query(`SELECT id_film, name, in_theaters, pictures FROM films`,async(err, result)=>{
         if(err){
             console.log(err)
-        }else{
+        }else if(result != null){
             console.log(result)
             // fs.writeFileSync('film.json', JSON.stringify(result))
-            res.json(result)
+
+            res.send({express:result})
         }
     })
     

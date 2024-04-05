@@ -28,7 +28,7 @@ app.use(cors());
 app.use(express.urlencoded({ extended: false }));
 
 
-app.get('/', controllFilms.filmsView)
+app.get('/main', controllFilms.filmsView)
 // app.get('/', (req,res)=>{
 //     res.json
 // })

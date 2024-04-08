@@ -39,12 +39,11 @@ export function Slider({style, onChange, active}){
                 }}/>
                 <aside className='sliderTextBlock'><p className='sliderText'>Бронирование по телефону:<br/><strong className='sliderNumber'>+8 800 535-35-35</strong></p></aside>
                 <nav className='btnSliderNav'>
-                    <ButtonSlider className={sliderBackground}  onClick={sliderImageChange}></ButtonSlider>
+                    <ButtonSlider className={sliderBackground} onClick={sliderImageChange}></ButtonSlider>
                     <ButtonSlider className={sliderBackground} onClick={() => setImage(sliderImageSecond)}></ButtonSlider>
                     <ButtonSlider className={sliderBackground} onClick={() => setImage(sliderImageThird)}></ButtonSlider>
                 </nav>
             <div className="shadowBackgroundSlider"></div>
         </section>
     )
-    
 }

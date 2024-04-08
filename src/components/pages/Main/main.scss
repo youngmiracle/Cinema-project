@@ -1,32 +1,10 @@
 .mainPage{
-    overflow: hidden;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 5%;
+    padding-top: 7%;
     overflow: auto;
-    .contentFilm{
-        width: 60%;
-        margin: 3% auto;
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-        .contentFilm__bigCard{
-            width: 35%;
-            height: 50vh;
-        }
-        .contentFilm__MiddleCard{
-            width: 70%;
-            height: 50vh;
-            display: flex;
-            flex-direction: column;
-            padding-left: 3%;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-    }
 }

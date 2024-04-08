@@ -45,3 +45,17 @@
         z-index: 5;
     }
 }
+
+
+.middleCard__section:hover .middleCard__container{
+    animation: AnimationHoverCard 1s alternate forwards;
+}
+.middleCard__section:hover .middleCard__name{
+    color: red;
+}
+
+@keyframes AnimationHoverCard {
+    100%{
+        background: linear-gradient(0deg, rgba(117, 0, 0, 0.664) 28%, transparent 100%);
+    }
+}

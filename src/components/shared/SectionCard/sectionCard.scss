@@ -1,0 +1,33 @@
+.contentFilm{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    .contentFilm__bigCard{
+        width: 35%;
+        height: 50vh;
+    }
+    .contentFilm__MiddleCard{
+        width: 70%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        padding-left: 3%;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+.contentFilmFirst{
+    margin-top: -4%;
+    display: flex;
+    flex-direction: row-reverse;
+    .contentFilm__MiddleCardFirst{
+        width: 70%;
+        display: flex;
+        padding-right: 3%;
+        padding-left: 0;
+        flex-wrap: wrap;
+    }
+}

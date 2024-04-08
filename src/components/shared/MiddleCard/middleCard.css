@@ -48,3 +48,26 @@
   background-color: transparent;
   z-index: 5;
 }
+
+.middleCard__section:hover .middleCard__container {
+  -webkit-animation: AnimationHoverCard 1s alternate forwards;
+          animation: AnimationHoverCard 1s alternate forwards;
+}
+
+.middleCard__section:hover .middleCard__name {
+  color: red;
+}
+
+@-webkit-keyframes AnimationHoverCard {
+  100% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(28%, rgba(117, 0, 0, 0.664)), to(transparent));
+    background: linear-gradient(0deg, rgba(117, 0, 0, 0.664) 28%, transparent 100%);
+  }
+}
+
+@keyframes AnimationHoverCard {
+  100% {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(28%, rgba(117, 0, 0, 0.664)), to(transparent));
+    background: linear-gradient(0deg, rgba(117, 0, 0, 0.664) 28%, transparent 100%);
+  }
+}

@@ -1,0 +1,192 @@
+.infSection{
+    margin-top: 6vh;
+    .infSection__definition{
+        width: 100%;
+        height: 94vh;
+        background: url(./image/phon/phonFirst.png) 100% 100% no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        .definition__title{
+            margin-top: 30vh;
+            width: 30%;
+            font-size: 45px;
+            color: white;
+            text-align: left;
+            z-index: 4;
+            .definition__name{
+                font-size: 48px;
+                color: #DDA15E;
+            }
+        }
+        .rectangle{
+            background-color: rgba(92, 92, 92, 0.568);
+            width: 45%;
+            z-index: 1;
+            height: 130vh;
+            bottom: -17vh;
+            left: 28%;
+            position: absolute;
+            transform: rotate(-18deg);
+        }
+        .shadowPhon{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.514);
+        }
+    }
+    //2 stage
+    .infSection__addition{
+        background-color: #7B7B7B;
+        width: 100%;
+        height: 30vh;
+        z-index: 2;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        .addition__comment{
+            width: 33%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .wand{
+                width: 3px;
+                height: 60%;
+                background-color: #DDA15E;
+                margin-right: 5%;
+            }
+            .comment__description{
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                height: 48%;
+                .description__title{
+                    font-size: 44px;
+                    color: #DDA15E;
+                    letter-spacing: 1px;
+                    margin-bottom: 5%;
+                }
+                .description__text{
+                    font-size: 30px;
+                    color: white;
+                }
+            }
+        }
+    }
+    //stage 3
+    .infSection__bar{
+        width: 100%;
+        height: 100vh;
+        background: url(./image/phon/phonSecond.png) 100% 100% no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        position: relative;
+        .shadowPhonSecond{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.514);
+        }
+        .rectangleSecond{
+            background-color: rgba(92, 92, 92, 0.568);
+            width: 60%;
+            z-index: 1;
+            height: 135vh;
+            bottom: -5vh;
+            left: -16%;
+            position: absolute;
+            transform: rotate(15deg);
+        }
+        .definition__title{
+            margin-left: 6%;
+            margin-top: 30vh;
+            width: 25%;
+            font-size: 45px;
+            color: white;
+            text-align: left;
+            z-index: 4;
+            .definition__name{
+                font-size: 48px;
+                color: #DDA15E;
+            }
+        }
+    }
+    //stage 4-6
+    .infSection__barFact{
+        background-color: #7B7B7B;
+        width: 100%;
+        height: 30vh;
+        z-index: 2;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        flex-direction: row;
+        .wand{
+            margin-left: 5%;
+            width: 3px;
+            height: 60%;
+            background-color: #DDA15E;
+            margin-right: 1%;
+        }
+        .description__text{
+            font-size: 30px;
+            color: white;
+            text-align: left;
+            width: 85%;
+            .description__textStrong{
+                font-size: 34px;
+                color: #DDA15E;
+            }
+        }
+    }
+    //stage 5
+    .infSection__offer{
+        width: 100%;
+        height: 94vh;
+        background: url(./image/phon/phonThird.png) 100% 100% no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        .definition__title{
+            margin-top: 30vh;
+            width: 30%;
+            font-size: 45px;
+            color: white;
+            text-align: left;
+            z-index: 4;
+            .definition__name{
+                font-size: 48px;
+                color: #DDA15E;
+            }
+        }
+        .rectangleThird{
+            background-color: rgba(92, 92, 92, 0.568);
+            width: 45%;
+            z-index: 1;
+            height: 130vh;
+            bottom: -17vh;
+            left: 28%;
+            position: absolute;
+            transform: rotate(18deg);
+        }
+        .shadowPhon{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.514);
+        }
+    }
+}

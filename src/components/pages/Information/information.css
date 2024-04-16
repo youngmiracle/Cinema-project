@@ -1,0 +1,246 @@
+.infSection {
+  margin-top: 6vh;
+}
+.infSection .infSection__definition {
+  width: 100%;
+  height: 94vh;
+  background: url(./image/phon/phonFirst.png) 100% 100% no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+.infSection .infSection__definition .definition__title {
+  margin-top: 30vh;
+  width: 30%;
+  font-size: 45px;
+  color: white;
+  text-align: left;
+  z-index: 4;
+}
+.infSection .infSection__definition .definition__title .definition__name {
+  font-size: 48px;
+  color: #DDA15E;
+}
+.infSection .infSection__definition .rectangle {
+  background-color: rgba(92, 92, 92, 0.568);
+  width: 45%;
+  z-index: 1;
+  height: 130vh;
+  bottom: -17vh;
+  left: 28%;
+  position: absolute;
+  -webkit-transform: rotate(-18deg);
+          transform: rotate(-18deg);
+}
+.infSection .infSection__definition .shadowPhon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.514);
+}
+.infSection .infSection__addition {
+  background-color: #7B7B7B;
+  width: 100%;
+  height: 30vh;
+  z-index: 2;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-direction: row;
+      flex-direction: row;
+}
+.infSection .infSection__addition .addition__comment {
+  width: 33%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.infSection .infSection__addition .addition__comment .wand {
+  width: 3px;
+  height: 60%;
+  background-color: #DDA15E;
+  margin-right: 5%;
+}
+.infSection .infSection__addition .addition__comment .comment__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  height: 48%;
+}
+.infSection .infSection__addition .addition__comment .comment__description .description__title {
+  font-size: 44px;
+  color: #DDA15E;
+  letter-spacing: 1px;
+  margin-bottom: 5%;
+}
+.infSection .infSection__addition .addition__comment .comment__description .description__text {
+  font-size: 30px;
+  color: white;
+}
+.infSection .infSection__bar {
+  width: 100%;
+  height: 100vh;
+  background: url(./image/phon/phonSecond.png) 100% 100% no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  position: relative;
+}
+.infSection .infSection__bar .shadowPhonSecond {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.514);
+}
+.infSection .infSection__bar .rectangleSecond {
+  background-color: rgba(92, 92, 92, 0.568);
+  width: 60%;
+  z-index: 1;
+  height: 135vh;
+  bottom: -5vh;
+  left: -16%;
+  position: absolute;
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+.infSection .infSection__bar .definition__title {
+  margin-left: 6%;
+  margin-top: 30vh;
+  width: 25%;
+  font-size: 45px;
+  color: white;
+  text-align: left;
+  z-index: 4;
+}
+.infSection .infSection__bar .definition__title .definition__name {
+  font-size: 48px;
+  color: #DDA15E;
+}
+.infSection .infSection__barFact {
+  background-color: #7B7B7B;
+  width: 100%;
+  height: 30vh;
+  z-index: 2;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -ms-flex-direction: row;
+      flex-direction: row;
+}
+.infSection .infSection__barFact .wand {
+  margin-left: 5%;
+  width: 3px;
+  height: 60%;
+  background-color: #DDA15E;
+  margin-right: 1%;
+}
+.infSection .infSection__barFact .description__text {
+  font-size: 30px;
+  color: white;
+  text-align: left;
+  width: 85%;
+}
+.infSection .infSection__barFact .description__text .description__textStrong {
+  font-size: 34px;
+  color: #DDA15E;
+}
+.infSection .infSection__offer {
+  width: 100%;
+  height: 94vh;
+  background: url(./image/phon/phonThird.png) 100% 100% no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+.infSection .infSection__offer .definition__title {
+  margin-top: 30vh;
+  width: 30%;
+  font-size: 45px;
+  color: white;
+  text-align: left;
+  z-index: 4;
+}
+.infSection .infSection__offer .definition__title .definition__name {
+  font-size: 48px;
+  color: #DDA15E;
+}
+.infSection .infSection__offer .rectangleThird {
+  background-color: rgba(92, 92, 92, 0.568);
+  width: 45%;
+  z-index: 1;
+  height: 130vh;
+  bottom: -17vh;
+  left: 28%;
+  position: absolute;
+  -webkit-transform: rotate(18deg);
+          transform: rotate(18deg);
+}
+.infSection .infSection__offer .shadowPhon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.514);
+}

@@ -5,10 +5,11 @@ import './sectionCard.css'
 import son from './Герой наших снов визитка.jpg'
 
 export default function SectionCard ({className, classNameArticle, bigCardImg, middleCardImg, middleCardName, bigCardName, bigCardRental, middleCardRental}){
+
     return(
         <article className={classNameArticle}>
             <section className='contentFilm__bigCard'>
-                <BigCard src={bigCardImg} name={bigCardName} rental={bigCardRental}/>
+                <BigCard src={son} name={'asdadsasd'} rental={'aasdasd'}/>
             </section>
             <section className={className}>
                 <MiddleCard  src={middleCardImg} name={middleCardName} rental={middleCardRental}/>
@@ -19,5 +20,3 @@ export default function SectionCard ({className, classNameArticle, bigCardImg, m
         </article> 
     )
 }
-
-

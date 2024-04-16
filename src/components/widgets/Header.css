@@ -47,6 +47,10 @@
 .headerContact{
   background-color: rgb(15, 15, 15);
 }
+.headerInformation{
+  color: #DDA15E;
+  background-color: #DDA15E;
+}
 .navLink{
   margin-right: 4%;
 }

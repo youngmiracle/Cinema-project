@@ -6,7 +6,7 @@ export function MainPage(){
     return(
         <main className='mainPage'>
             <Slider/>
-            <SectionCard classNameArticle={'contentFilm'} className={'contentFilm__MiddleCard'} bigCardImg={'aa'} bigCardName={'aa'} bigCardRental={'aa'}/>
+            <SectionCard classNameArticle={'contentFilm'} className={'contentFilm__MiddleCard'}/>
             <SectionCard classNameArticle={'contentFilm contentFilmFirst'} className={'contentFilm__MiddleCard contentFilm__MiddleCardFirst'}/>
         </main>
     )

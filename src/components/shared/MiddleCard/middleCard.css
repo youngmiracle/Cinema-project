@@ -12,6 +12,8 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-animation: AnimationBackCard 1s forwards alternate;
+          animation: AnimationBackCard 1s forwards alternate;
 }
 .middleCard__section .middleCard__text {
   position: absolute;
@@ -23,8 +25,10 @@
 }
 .middleCard__section .middleCard__name {
   color: #bbbbbb;
-  font-size: 22px;
+  font-size: 24px;
   text-align: center;
+  -webkit-animation: AnimationBackCardName 1s alternate forwards;
+          animation: AnimationBackCardName 1s alternate forwards;
 }
 .middleCard__section .middleCard__container {
   top: 0;
@@ -36,7 +40,7 @@
   background: linear-gradient(0deg, rgba(96, 108, 56, 0.664) 28%, transparent 100%);
 }
 .middleCard__section .middleCard__rental {
-  font-size: 16px;
+  font-size: 18px;
   color: #BC6C25;
 }
 .middleCard__section .middleCard__btn {
@@ -49,25 +53,89 @@
   z-index: 5;
 }
 
-.middleCard__section:hover .middleCard__container {
+.middleCard__section:hover .middleCard__img {
   -webkit-animation: AnimationHoverCard 1s alternate forwards;
           animation: AnimationHoverCard 1s alternate forwards;
 }
 
 .middleCard__section:hover .middleCard__name {
-  color: red;
+  -webkit-animation: AnimationHoverCardName 1s alternate forwards;
+          animation: AnimationHoverCardName 1s alternate forwards;
 }
 
 @-webkit-keyframes AnimationHoverCard {
   100% {
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(28%, rgba(117, 0, 0, 0.664)), to(transparent));
-    background: linear-gradient(0deg, rgba(117, 0, 0, 0.664) 28%, transparent 100%);
+    -webkit-filter: blur(2px);
+            filter: blur(2px);
   }
 }
 
 @keyframes AnimationHoverCard {
   100% {
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(28%, rgba(117, 0, 0, 0.664)), to(transparent));
-    background: linear-gradient(0deg, rgba(117, 0, 0, 0.664) 28%, transparent 100%);
+    -webkit-filter: blur(2px);
+            filter: blur(2px);
+  }
+}
+@-webkit-keyframes AnimationHoverCardName {
+  100% {
+    font-size: 27px;
+    letter-spacing: 1px;
+    color: black;
+  }
+}
+@keyframes AnimationHoverCardName {
+  100% {
+    font-size: 27px;
+    letter-spacing: 1px;
+    color: black;
+  }
+}
+@-webkit-keyframes AnimationBackCard {
+  100% {
+    -webkit-filter: none;
+            filter: none;
+  }
+  from {
+    -webkit-filter: blur(2px);
+            filter: blur(2px);
+  }
+}
+@keyframes AnimationBackCard {
+  100% {
+    -webkit-filter: none;
+            filter: none;
+  }
+  from {
+    -webkit-filter: blur(2px);
+            filter: blur(2px);
+  }
+}
+@keyframes AnimationHoverCardName {
+  100% {
+    font-size: 26px;
+    letter-spacing: 1px;
+    color: black;
+  }
+}
+@-webkit-keyframes AnimationBackCardName {
+  from {
+    font-size: 26px;
+    letter-spacing: 1px;
+    color: black;
+  }
+  100% {
+    color: #bbbbbb;
+    font-size: 24px;
+  }
+}
+@keyframes AnimationBackCardName {
+  from {
+    font-size: 26px;
+    letter-spacing: 1px;
+    color: black;
+  }
+  100% {
+    color: #bbbbbb;
+    font-size: 24px;
   }
 }

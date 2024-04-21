@@ -7,11 +7,13 @@ import {InformationPage} from './components/pages/Information/Information';
 import { ServicePage } from './components/pages/Service/Service';
 import { Route, Routes } from 'react-router-dom';
 import { Footer } from './components/widgets/Footer/Footer';
+import ExampleFilm from "./components/pages/ExampleFilm/ExampleFilm";
+import films from './components/entities/films.json'
 
 
 export function App() {
-  const [nav, setNav] = useState('main')
 
+  const [nav, setNav] = useState('main')
   return (
     <>
       <Header active={nav} onChange={(current) => setNav(current)}/>
@@ -20,6 +22,11 @@ export function App() {
         <Route path='about' element = {<InformationPage/>}/>
         <Route path='service' element = {<ServicePage/>}/>
         <Route path='contacts' element = {<ContactsPage/>}/>
+          {films.map((film) => {
+          return(
+          <Route key={film.key} path={film.example} element = {<ExampleFilm/>}/>
+            )
+            })}
       </Routes>
       <Footer/>
     </>

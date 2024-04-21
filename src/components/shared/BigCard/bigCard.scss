@@ -8,7 +8,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        animation: AnimationBackCard 1s ease-in forwards;
+        animation: AnimationBackCard 0.7s ease-in forwards;
     }
     .bigCard__text{
         position: absolute;
@@ -17,12 +17,14 @@
         width: 75%;
         text-align: center;
         z-index: 2;
+        text-wrap: none;
+        white-space: nowrap;
     }
     .bigCard__name{
         color: #bbbbbb;
         font-size: 35px;
         text-align: center;
-        animation: AnimationBackCardNameBig 1s alternate ease;
+        animation: AnimationBackCardNameBig 0.4s alternate ease;
     }
     .bigCard__container{
         top: 0;
@@ -48,24 +50,24 @@
 }
 
 .bigCard__section:hover .bigCard__img{
-    animation: AnimationHoverCard 1s alternate forwards;
+    animation: AnimationHoverCard 0.7s alternate forwards;
 }
 .bigCard__section:hover .bigCard__name{
-    animation: AnimationHoverCardNameBig 1s alternate forwards;
+    animation: AnimationHoverCardNameBig 0.3s alternate forwards;
 }
 
 @keyframes AnimationHoverCardNameBig {
     100%{
         font-size: 37px;
         letter-spacing: 1px;
-        color: black;
+        color: white;
     }
 }
 @keyframes AnimationBackCardNameBig {
     from{
         font-size: 37px;
         letter-spacing: 1px;
-        color: black;
+        color: white;
     }
     100%{
         color: #bbbbbb;

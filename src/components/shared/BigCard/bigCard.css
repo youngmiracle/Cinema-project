@@ -11,8 +11,8 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  -webkit-animation: AnimationBackCard 1s ease-in forwards;
-          animation: AnimationBackCard 1s ease-in forwards;
+  -webkit-animation: AnimationBackCard 0.7s ease-in forwards;
+          animation: AnimationBackCard 0.7s ease-in forwards;
 }
 .bigCard__section .bigCard__text {
   position: absolute;
@@ -21,13 +21,15 @@
   width: 75%;
   text-align: center;
   z-index: 2;
+  text-wrap: none;
+  white-space: nowrap;
 }
 .bigCard__section .bigCard__name {
   color: #bbbbbb;
   font-size: 35px;
   text-align: center;
-  -webkit-animation: AnimationBackCardNameBig 1s alternate ease;
-          animation: AnimationBackCardNameBig 1s alternate ease;
+  -webkit-animation: AnimationBackCardNameBig 0.4s alternate ease;
+          animation: AnimationBackCardNameBig 0.4s alternate ease;
 }
 .bigCard__section .bigCard__container {
   top: 0;
@@ -53,20 +55,20 @@
 }
 
 .bigCard__section:hover .bigCard__img {
-  -webkit-animation: AnimationHoverCard 1s alternate forwards;
-          animation: AnimationHoverCard 1s alternate forwards;
+  -webkit-animation: AnimationHoverCard 0.7s alternate forwards;
+          animation: AnimationHoverCard 0.7s alternate forwards;
 }
 
 .bigCard__section:hover .bigCard__name {
-  -webkit-animation: AnimationHoverCardNameBig 1s alternate forwards;
-          animation: AnimationHoverCardNameBig 1s alternate forwards;
+  -webkit-animation: AnimationHoverCardNameBig 0.3s alternate forwards;
+          animation: AnimationHoverCardNameBig 0.3s alternate forwards;
 }
 
 @-webkit-keyframes AnimationHoverCardNameBig {
   100% {
     font-size: 37px;
     letter-spacing: 1px;
-    color: black;
+    color: white;
   }
 }
 
@@ -74,14 +76,14 @@
   100% {
     font-size: 37px;
     letter-spacing: 1px;
-    color: black;
+    color: white;
   }
 }
 @-webkit-keyframes AnimationBackCardNameBig {
   from {
     font-size: 37px;
     letter-spacing: 1px;
-    color: black;
+    color: white;
   }
   100% {
     color: #bbbbbb;
@@ -92,7 +94,7 @@
   from {
     font-size: 37px;
     letter-spacing: 1px;
-    color: black;
+    color: white;
   }
   100% {
     color: #bbbbbb;

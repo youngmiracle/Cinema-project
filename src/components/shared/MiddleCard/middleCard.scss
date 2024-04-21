@@ -9,21 +9,22 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        animation: AnimationBackCard 1s forwards alternate;
+        animation: AnimationBackCard 0.7s forwards alternate;
     }
     .middleCard__text{
         position: absolute;
         top: 70%;
-        left: 25%;
-        width: 50%;
+        left: 5%;
+        width: 90%;
         text-align: center;
+        white-space: nowrap;
         z-index: 2;
     }
     .middleCard__name{
         color: #bbbbbb;
         font-size: 24px;
         text-align: center;
-        animation: AnimationBackCardName 1s alternate forwards;
+        animation: AnimationBackCardName 0.4s alternate forwards;
     }
     .middleCard__container{
         top: 0;
@@ -50,22 +51,14 @@
 
 
 .middleCard__section:hover .middleCard__img{
-    animation: AnimationHoverCard 1s alternate forwards;
+    animation: AnimationHoverCard 0.7s alternate forwards;
 }
 .middleCard__section:hover .middleCard__name{
-    animation: AnimationHoverCardName 1s alternate forwards;
+    animation: AnimationHoverCardName 0.3s alternate forwards;
 }
 @keyframes AnimationHoverCard {
     100%{
-
         filter: blur(2px); 
-    }
-}
-@keyframes AnimationHoverCardName {
-    100%{
-        font-size: 27px;
-        letter-spacing: 1px;
-        color: black;
     }
 }
 @keyframes AnimationBackCard {
@@ -81,14 +74,14 @@
     100%{
         font-size: 26px;
         letter-spacing: 1px;
-        color: black;
+        color: white;
     }
 }
 @keyframes AnimationBackCardName {
     from{
         font-size: 26px;
         letter-spacing: 1px;
-        color: black;
+        color: white;
     }
     100%{
         color: #bbbbbb;

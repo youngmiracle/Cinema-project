@@ -1,0 +1,26 @@
+.exampleFilm__main {
+  width: 80%;
+  background: #1a1a1a;
+  height: 100vh;
+  margin: 6vh auto;
+}
+.exampleFilm__main .exampleFilm__media {
+  width: 100%;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.exampleFilm__main .exampleFilm__media .exampleFilm__image {
+  width: 40%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}

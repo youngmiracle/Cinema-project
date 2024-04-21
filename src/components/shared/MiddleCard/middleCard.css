@@ -12,23 +12,24 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  -webkit-animation: AnimationBackCard 1s forwards alternate;
-          animation: AnimationBackCard 1s forwards alternate;
+  -webkit-animation: AnimationBackCard 0.7s forwards alternate;
+          animation: AnimationBackCard 0.7s forwards alternate;
 }
 .middleCard__section .middleCard__text {
   position: absolute;
   top: 70%;
-  left: 25%;
-  width: 50%;
+  left: 5%;
+  width: 90%;
   text-align: center;
+  white-space: nowrap;
   z-index: 2;
 }
 .middleCard__section .middleCard__name {
   color: #bbbbbb;
   font-size: 24px;
   text-align: center;
-  -webkit-animation: AnimationBackCardName 1s alternate forwards;
-          animation: AnimationBackCardName 1s alternate forwards;
+  -webkit-animation: AnimationBackCardName 0.4s alternate forwards;
+          animation: AnimationBackCardName 0.4s alternate forwards;
 }
 .middleCard__section .middleCard__container {
   top: 0;
@@ -54,13 +55,13 @@
 }
 
 .middleCard__section:hover .middleCard__img {
-  -webkit-animation: AnimationHoverCard 1s alternate forwards;
-          animation: AnimationHoverCard 1s alternate forwards;
+  -webkit-animation: AnimationHoverCard 0.7s alternate forwards;
+          animation: AnimationHoverCard 0.7s alternate forwards;
 }
 
 .middleCard__section:hover .middleCard__name {
-  -webkit-animation: AnimationHoverCardName 1s alternate forwards;
-          animation: AnimationHoverCardName 1s alternate forwards;
+  -webkit-animation: AnimationHoverCardName 0.3s alternate forwards;
+          animation: AnimationHoverCardName 0.3s alternate forwards;
 }
 
 @-webkit-keyframes AnimationHoverCard {
@@ -74,20 +75,6 @@
   100% {
     -webkit-filter: blur(2px);
             filter: blur(2px);
-  }
-}
-@-webkit-keyframes AnimationHoverCardName {
-  100% {
-    font-size: 27px;
-    letter-spacing: 1px;
-    color: black;
-  }
-}
-@keyframes AnimationHoverCardName {
-  100% {
-    font-size: 27px;
-    letter-spacing: 1px;
-    color: black;
   }
 }
 @-webkit-keyframes AnimationBackCard {
@@ -110,18 +97,25 @@
             filter: blur(2px);
   }
 }
+@-webkit-keyframes AnimationHoverCardName {
+  100% {
+    font-size: 26px;
+    letter-spacing: 1px;
+    color: white;
+  }
+}
 @keyframes AnimationHoverCardName {
   100% {
     font-size: 26px;
     letter-spacing: 1px;
-    color: black;
+    color: white;
   }
 }
 @-webkit-keyframes AnimationBackCardName {
   from {
     font-size: 26px;
     letter-spacing: 1px;
-    color: black;
+    color: white;
   }
   100% {
     color: #bbbbbb;
@@ -132,7 +126,7 @@
   from {
     font-size: 26px;
     letter-spacing: 1px;
-    color: black;
+    color: white;
   }
   100% {
     color: #bbbbbb;

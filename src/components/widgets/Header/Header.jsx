@@ -1,5 +1,5 @@
 import  './Header.css'
-import ButtonHeader from '../shared/Button/ButtonHeader/ButtonHeader'
+import ButtonHeader from '../../shared/Button/ButtonHeader/ButtonHeader'
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 

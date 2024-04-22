@@ -1,0 +1,31 @@
+.descriptionFilm {
+  padding: 1% 1%;
+  width: 32.5%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #9d9d9d;
+  line-height: 25px;
+  font-size: 18px;
+  font-family: Bahnschrift;
+  font-weight: 400;
+}
+.descriptionFilm .descriptionFilm__time {
+  margin-top: 2vh;
+  color: #606c38;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.descriptionFilm .descriptionFilm__title {
+  font-size: 22px;
+  color: #7B7B7B;
+  letter-spacing: 2px;
+  margin: 5vh 0 1vh 0;
+}

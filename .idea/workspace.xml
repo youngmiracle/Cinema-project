@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c8e35ba-e2b0-489e-bc21-62ded22e399c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/entities/films.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/entities/filmsSecond.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/ExampleFilm/ExampleFilm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/ExampleFilm/exampleFilm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/ExampleFilm/exampleFilm.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/VideoFilm/VideoFilm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/image/supportBtn/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/DescriptionSection/DescriptionFilm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/DescriptionSection/descriptionFilm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/DescriptionSection/descriptionFilm.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/SessionExampleSection/SessionExample.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/SessionExampleSection/sessionExample.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/SessionExampleSection/sessionExample.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" afterDir="false" />
@@ -23,20 +24,8 @@
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/15.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/15.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/16.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/16.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/17.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/17.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/18.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/18.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/19.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/19.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/2.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/22.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/22.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/25.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/25.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/27.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/27.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/29.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/29.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/3.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/30.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/30.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/31.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/31.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/32.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/32.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/33.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/33.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/34.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/34.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/35.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/35.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/4.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/5.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/6.pack" afterDir="false" />
@@ -47,28 +36,16 @@
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prepros.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Main/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/image/films/Герой наших снов/Герой наших снов визитка.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/image/films/Любовь со второго взгляда/Любовь СВВ визитка.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/image/films/Любовь со второго взгляда/Любовь СВВ.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/image/films/Новая папка/all_days_repertoire_56500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/image/films/Онегин/Онегин.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/image/films/Онегин/ОнегинВизитка.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/image/films/Пила. Джокер/Пила. Джокер визитка.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/image/films/Пила. Джокер/Пила. Джокер.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/image/films/Сезон охоты/Сезон охоты визитка.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/image/films/Сезон охоты/Сезон охоты.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/image/films/Три мушкитёра/Три Мушкетера визитка.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/image/films/Форсаж 8/Форсаж 8 визитка.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/image/films/Форсаж 8/форсаж 8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/BigCard/BigCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/BigCard/BigCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/BigCard/bigCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/BigCard/bigCard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/BigCard/bigCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/BigCard/bigCard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/MiddleCard/middleCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/MiddleCard/middleCard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/MiddleCard/middleCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/MiddleCard/middleCard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/entities/films.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/entities/films.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/entities/filmsSecond.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/ExampleFilm/ExampleFilm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/ExampleFilm/ExampleFilm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/ExampleFilm/exampleFilm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/ExampleFilm/exampleFilm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/ExampleFilm/exampleFilm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/ExampleFilm/exampleFilm.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shared/BigSectionCard/BigSectionCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/BigSectionCard/BigSectionCard.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/shared/SectionCard/SectionCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/SectionCard/SectionCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/SectionCard/sectionCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/SectionCard/sectionCard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/SectionCard/sectionCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/SectionCard/sectionCard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shared/VideoFilm/VideoFilm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/VideoFilm/VideoFilm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/widgets/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/widgets/Header/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/widgets/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/widgets/Header/Header.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,31 +76,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Rebasing Front",
-    "last_opened_file_path": "D:/react/cinema-project/cinema-project_front/src/components/processes",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "tasks",
-    "ts.external.directory.path": "D:\\WebStorm 2024.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Rebasing Front&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/react/cinema-project/cinema-project_front/src/components/processes&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;tasks&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\WebStorm 2024.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\react\cinema-project\cinema-project_front\src\components\processes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\react\cinema-project\cinema-project_front\src\components\widgets\Header" />
+      <recent name="D:\react\cinema-project\cinema-project_front\src\components\pages\image\supportBtn" />
       <recent name="D:\react\cinema-project\cinema-project_front\src\components\entities" />
       <recent name="D:\react\cinema-project\cinema-project_front\src\components\processes" />
     </key>
@@ -157,7 +136,11 @@
       <workItem from="1713547621058" duration="1449000" />
       <workItem from="1713603142521" duration="11292000" />
       <workItem from="1713621560991" duration="936000" />
-      <workItem from="1713693680638" duration="6284000" />
+      <workItem from="1713693680638" duration="10460000" />
+      <workItem from="1713710635245" duration="4152000" />
+      <workItem from="1713715150586" duration="1035000" />
+      <workItem from="1713716319851" duration="284000" />
+      <workItem from="1713796647216" duration="8162000" />
     </task>
     <servers />
   </component>

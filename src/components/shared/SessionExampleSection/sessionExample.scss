@@ -1,0 +1,49 @@
+.sessionExample{
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  .sessionExample__date{
+    font-size: 28px;
+    letter-spacing: 3px;
+    color: #f3f3f3;
+    font-family: Bahnschrift;
+  }
+  .sessionExample__typeHall{
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #bebebe;
+    text-transform: uppercase;
+  }
+  .sessionExample__timeBtn{
+    width: 10%;
+    height: 20%;
+    border-radius: 10px;
+    background: #3b3b3b;
+    color: #bebebe;
+    font-family: Bahnschrift;
+    font-size: 18px;
+
+  }
+  .sessionExample__timeBtn:hover{
+    animation: sessionExampleBtnHover 0.4s alternate forwards;
+  }
+  .wandSessionExample{
+    position: absolute;
+    width: 85%;
+    background: #3b3b3b;
+    height: 2px;
+    bottom: 0;
+  }
+}
+
+@keyframes sessionExampleBtnHover {
+  100%{
+    color: #e7e7e7;
+    background: #262626;
+    box-shadow: 1px 2px 2px 2px #151515;
+  }
+}

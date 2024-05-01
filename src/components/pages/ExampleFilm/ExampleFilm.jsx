@@ -1,14 +1,20 @@
-import './exampleFilm.css'
-import {BigCard} from "../../shared/BigCard/BigCard";
+import './exampleFilm.css';
 import films from "../../entities/films.json";
 import VideoFilm from "../../shared/VideoFilm/VideoFilm";
 import SessionExample from "../../shared/SessionExampleSection/SessionExample";
 import DescriptionFilm from "../../shared/DescriptionSection/DescriptionFilm";
+import PopUpMenu from "../../shared/PopUpMenu/PopUpMenu";
+import {useEffect, useState} from "react";
 
 
 export default function ExampleFilm (){
     let valueKeyLocalStorage = localStorage.getItem('key');
     const exampleKeyFilms  =  --valueKeyLocalStorage;
+    const timeSession = ['10:30', '15:30', '17:10', '20:20']
+
+    const timeSessions = sessionStorage.getItem("time");
+
+    const [time, setTime] = useState(timeSessions);
 
     const handlerClick = () =>{
         document.getElementById('videoFilm').style.zIndex = '4';
@@ -17,6 +23,10 @@ export default function ExampleFilm (){
     }
     const date = new Date();
     const dateDay = date.getDate();
+
+
+
+
     return(
         <main className="exampleFilm__main">
             <article className="exampleFilm__media">
@@ -31,13 +41,14 @@ export default function ExampleFilm (){
             </article>
             <article className="exampleFilm__descriptionSection">
                 <section className="descriptionSection__rental">
-                    <SessionExample dateIncrement={dateDay + 1} time={'10:30'}/>
-                    <SessionExample dateIncrement={dateDay + 2} time={'15:30'}/>
-                    <SessionExample dateIncrement={dateDay + 3} time={'17:10'}/>
-                    <SessionExample dateIncrement={dateDay + 4} time={'20:20'}/>
+                    <SessionExample onClick={() => {setTime(timeSession[0]); document.getElementById('popUpMenu').style.display = 'flex';}} dateIncrement={dateDay + 1} time={timeSession[0]}/>
+                    <SessionExample onClick={() => {setTime(timeSession[1]); document.getElementById('popUpMenu').style.display = 'flex'}} dateIncrement={dateDay + 2} time={timeSession[1]}/>
+                    <SessionExample onClick={() => {setTime(timeSession[2]); document.getElementById('popUpMenu').style.display = 'flex'}} dateIncrement={dateDay + 3} time={timeSession[2]}/>
+                    <SessionExample onClick={() => {setTime(timeSession[3]); document.getElementById('popUpMenu').style.display = 'flex'}} dateIncrement={dateDay + 4} time={timeSession[3]}/>
                 </section>
                 <DescriptionFilm/>
             </article>
+            <PopUpMenu idBtnBack="BtnBackPop" onClick={() => {sessionStorage.removeItem("time"); document.getElementById('popUpMenu').style.display = 'none';}} timeSessions={time} name={films[exampleKeyFilms].name} id="popUpMenu"/>
         </main>
     )
 }

@@ -30,13 +30,8 @@ const serviceChange = () => {onChange('prices'); setcontactHeader('header')}
                 <NavLink to={'about'} href="#" className='navLink'><ButtonHeader isActive={active === 'info'}  onClick={changeInfo}>о кинотеатре</ButtonHeader></NavLink>
                 <NavLink to={'service'} href="#" className='navLink'><ButtonHeader isActive={active === 'service'}  onClick={serviceChange}>Услуги</ButtonHeader></NavLink>
                 <NavLink to={'contacts'} href="#" className='navLink'><ButtonHeader isActive={active === 'contacts'}  onClick={changeContact}>контакты</ButtonHeader></NavLink>
-                <NavLink to={'review'} href="#" className='navLink'><ButtonHeader style={{
-                    position: 'absolute',
-                    right: '6%',
-                    width: '15%'
-                }}>оставить отзыв</ButtonHeader></NavLink>
             </nav>
-            <p className='number'>+8 800 535 35 35</p>
+            <p className='number'>+7 800 535 35 35</p>
         </header>
     )
 }

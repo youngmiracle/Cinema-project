@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c8e35ba-e2b0-489e-bc21-62ded22e399c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/pages/image/supportBtn/play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/DescriptionSection/DescriptionFilm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/DescriptionSection/descriptionFilm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/DescriptionSection/descriptionFilm.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/SessionExampleSection/SessionExample.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/SessionExampleSection/sessionExample.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/SessionExampleSection/sessionExample.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/PopUpMenu/PopUpMenu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/PopUpMenu/popUpMenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/PopUpMenu/popUpMenu.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" afterDir="false" />
@@ -35,17 +31,10 @@
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prepros.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/entities/films.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/entities/films.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/entities/filmsSecond.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/ExampleFilm/ExampleFilm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/ExampleFilm/ExampleFilm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/ExampleFilm/exampleFilm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/ExampleFilm/exampleFilm.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/ExampleFilm/exampleFilm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/ExampleFilm/exampleFilm.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/BigSectionCard/BigSectionCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/BigSectionCard/BigSectionCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/SectionCard/SectionCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/SectionCard/SectionCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/VideoFilm/VideoFilm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/VideoFilm/VideoFilm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/widgets/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/widgets/Header/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/widgets/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/widgets/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shared/SessionExampleSection/SessionExample.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/SessionExampleSection/SessionExample.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/widgets/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/widgets/Header/Header.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +69,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;Rebasing Front&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/react/cinema-project/cinema-project_front/src/components/processes&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Левентас4.4&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
@@ -140,7 +129,15 @@
       <workItem from="1713710635245" duration="4152000" />
       <workItem from="1713715150586" duration="1035000" />
       <workItem from="1713716319851" duration="284000" />
-      <workItem from="1713796647216" duration="8162000" />
+      <workItem from="1713796647216" duration="8379000" />
+      <workItem from="1713878030800" duration="6717000" />
+      <workItem from="1713963031924" duration="2722000" />
+      <workItem from="1714222741529" duration="83000" />
+      <workItem from="1714398809909" duration="1179000" />
+      <workItem from="1714503278211" duration="464000" />
+      <workItem from="1714554878212" duration="669000" />
+      <workItem from="1714569494124" duration="298000" />
+      <workItem from="1714572395240" duration="58000" />
     </task>
     <servers />
   </component>

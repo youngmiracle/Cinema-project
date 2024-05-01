@@ -1,6 +1,6 @@
 import('./sessionExample.css')
 
-export default function SessionExample({dateIncrement, time}){
+export default function SessionExample({dateIncrement, time, onClick, id}){
 
     const date = new Date();
     const dateDay = date.getDate();
@@ -11,7 +11,7 @@ export default function SessionExample({dateIncrement, time}){
         <section className="sessionExample">
             <p className="sessionExample__date">{dateIncrement} {dateMonthResult}я</p>
             <p className="sessionExample__typeHall">зал с креслами</p>
-            <button className="sessionExample__timeBtn">{time}</button>
+            <button className="sessionExample__timeBtn" id={id} onClick={onClick}>{time}</button>
             <div className="wandSessionExample"></div>
         </section>
     )
